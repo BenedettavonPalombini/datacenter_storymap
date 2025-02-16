@@ -72,7 +72,7 @@ var config = {
             id: 'railroad_today',
             alignment: 'left',
             hidden: false,
-            description: "US Rail Network Today and Data Center locations.<br>Locations of data centers are retrieved via OpenStreetMaps; the exact validity of these locations cannot be guaranteed as there is no publicly available data on where this infrastructure is located.",
+            description: "US Rail Network Today and Data Center locations.<br>Locations of data centers are retrieved via OpenStreetMaps; many providers do not disclose where data centers are located.",
             location: {
                 center: [-95.408796, 34.156509],
                 zoom: 3.5,
@@ -89,7 +89,7 @@ var config = {
             id: 'selected_census',
             alignment: 'left',
             hidden: false,
-            description: 'The map illustrates an intersection between counties where over 30% of the population lack fixed broadband or internet access (data from 2020), the existing rail network, and data center locations. Clusters of broadband-deficient counties in the Southwest and overlaps with areas hosting data centers are visible.',
+            description: 'Clusters of broadband-deficient counties in the Southwest - where over 30% of the population lack fixed broadband or internet access (2020) - coincide with regions where data centers co-locate.',
             location: {
                 center: [-95.408796, 34.156509],
                 zoom: 4.0,
@@ -107,7 +107,7 @@ var config = {
             id: 'springfield_holyoke',
             alignment: 'left',
             hidden: false,
-            description: "Hampden County, Massachusetts, and the city of Holyoke are examples of post-industrial transformation. The river enabled the city to establish itself as a hub for manufacturing, particularly paper mills and textiles. However, as industrial production shifted overseas in the mid-20th century, Holyoke faced significant economic decline, characterized by factory closures, population loss, and rising unemployment. Today, Holyoke is redefining its economic landscape by repurposing its built and environmental resources to host data centers. The city’s industrial legacy, including robust energy infrastructure and large, adaptable buildings, makes it an attractive location for these facilities. Additionally, Massachusetts has implemented tax incentives to encourage data center development in economically struggling areas like Holyoke, aiming to spur job creation and attract technological investment. Despite these developments, the benefits of data centers have not fully addressed local socioeconomic challenges.<br><br>The median household income in Hampden County hovers around $40,000, highlighting persistent disparities in economic well-being.",
+            description: "Hampden County, Massachusetts, and the city of Holyoke exemplify post-industrial transformation. The river enabled the city to establish itself as a hub for manufacturing, particularly for paper and textiles. However, as industrial production shifted overseas in the mid-20th century, Holyoke faced significant economic decline, characterized by factory closures, population loss, and rising unemployment. Today, Holyoke is redefining its economic landscape by repurposing its built and environmental resources to host a data center. The city’s industrial legacy, particularly its robust energy infrastructure, makes it an attractive location for data center developers. Additionally, Massachusetts has implemented tax incentives to encourage data center development in economically struggling areas like Holyoke, aiming to spur job creation and attract technological investment. Despite these developments, the benefits of data centers have not fully addressed local socioeconomic challenges.<br><br>The median household income in Hampden County hovers around $40,000, highlighting persistent disparities in economic well-being.",
             location: {
                 center: [-72.663, 42.139],
                 zoom: 10.09,
